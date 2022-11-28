@@ -1,6 +1,8 @@
 package balancedBinaryTree;
 
 
+import elements.TreeNode;
+
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return maxDepth(root) != -1;

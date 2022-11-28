@@ -1,5 +1,7 @@
 package symmetricTree;
 
+import elements.TreeNode;
+
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         return isMirror(root, root);
