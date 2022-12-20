@@ -9,7 +9,7 @@ public class Solution1 {
 
                 if (board[i][j] != '.') {
                     char c = board[i][j];
-                    //board[i][j] = '.';
+                    board[i][j] = '.';
                     if (!isValid(board, i, j, c)) return false;
                     board[i][j] = c;
                 }
